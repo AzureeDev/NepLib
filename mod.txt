@@ -1,0 +1,16 @@
+{
+	"name" : "NepLib",
+	"description" : "Library used by several zombie maps.",
+	"author" : "Nepgearsy",
+	"contact" : "https://steamcommunity.com/id/Nepgearsy",
+	"version" : "1.0.0",
+    "pre_hooks" : [
+		{ "hook_id" : "lib/entry", "script_path" : "Core.lua" }
+    ],
+    "libraries" : [
+        {
+            "display_name" : "BeardLib",
+            "identifier" : "beardlib"
+        }
+    ]
+}
